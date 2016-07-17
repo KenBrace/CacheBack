@@ -1,9 +1,9 @@
 <?php
 
-$db_host = "localhost";
-$db_user = "forumcash";
-$db_pass = "Sk84forumcash";
-$db_name = "cacheback";
+$db_host = "";
+$db_user = "";
+$db_pass = "";
+$db_name = "";
 
 $conn = mysqli_connect($db_host, $db_user, $db_pass, $db_name);
 if(!$conn){
